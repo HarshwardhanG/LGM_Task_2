@@ -1,0 +1,68 @@
+body{
+    display:block;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("/home/sunbeam/Downloads/car13.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;  
+}
+.container
+{
+    position: relative;
+    height:600px;
+    left:0px;
+   
+}
+.heder
+ {
+    height:140px;
+    width:100%; 
+    border-bottom:2px solid #fafdfc;
+    padding-top: 50px;
+    font-size: 100px;
+    color:rgb(122, 95, 95);
+    
+}
+.btn{
+    position: absolute;
+    top:30px;
+    right:50px;
+    
+}
+button{
+    color:red;
+    height:50px;
+    width:150px;
+
+    background-image: linear-gradient(blue,yellow,green);
+    border-radius: 20px;
+
+    
+}
+#data
+{
+    width:100%;
+    height:450px;
+    text-align:center;
+    justify-content: center;
+    display: flex;   
+    
+}
+.table
+{
+    width:600px;
+
+}
+table{
+    color: lightgoldenrodyellow;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font: 600;
+    
+}
+table tr :hover{
+    background-color: red;
+
+}
+img{
+    clip-path: view-box;
+}
